@@ -1,0 +1,180 @@
+body {
+    color: rgb(4, 248, 98);
+    margin: 0;
+    background-image: url("../assets/images/river.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container {
+    border: solid rgb(0, 72, 72) 9px;
+    width: 952px;
+    ;
+    display: inline block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+video {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    border-radius: 5%;
+    border: solid 8px aquamarine;
+}
+
+#main-nav {
+    width: 99.5%;
+    float: left;
+    border: solid cornflowerblue 5px;
+    background-color: aqua;
+    position: relative;
+    overflow: hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+
+}
+
+ul {
+    list-style-type: lower-alpha;
+}
+
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+fieldset {
+    border: solid aliceblue 5px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    width: fit-content;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+nav li a:link {
+    color: blue;
+}
+
+nav li a:hover {
+    color: blue;
+}
+
+nav li a:visited {
+    color: yellowgreen;
+}
+nav li a:active{
+    color: aliceblue;
+}
+
+.img-centre {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5%;
+    border: aqua 5px solid;
+}
+
+header{
+    background-color: darkblue;
+    color: rgb(4, 248, 98);
+    width: 100%;
+
+}
+footer{
+    background-color: darkblue;
+    color: rgb(4, 248, 98);
+}
+h1,h2,h3{
+    margin: 10px;
+    text-transform: uppercase;
+}
+table{
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th,td{
+    border: solid aquamarine 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table th{
+    text-transform: uppercase;
+    background-color: azure;
+    color: aqua;
+}
+tfoot td{
+    text-transform: uppercase;
+    background-color: aliceblue;
+    color: aqua;
+}
+footer{
+    font-size: 80%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0;
+    padding-right: 0;
+}
+iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+legend{
+    font-style: italic;
+    background-color: aquamarine;
+    color:blue;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5%;
+}
+input[type="submit"]{
+    background-color: aqua;
+    cursor: pointer;
+}
